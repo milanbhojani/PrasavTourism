@@ -1,11 +1,13 @@
 import React  from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./component/home";
-import About from "./component/about/about";
-import Tour from "./component/tour/tour";
-import Contact from "./component/contact/contact";
 import Header from "./header";
 import Footer from "./footer";
+import Home from "./component/home/index";
+import About from "./component/about/about";
+import Tour from "./component/tour/tour";
+import Tourdetails from "./component/tour/tourdetails";
+import Contact from "./component/contact/contact";
+
 
 
 const Main = () => {
@@ -19,6 +21,7 @@ const Main = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/tour" element={<Tour />} />
+          <Route path="/tourdetails" element={<Tourdetails />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

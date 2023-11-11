@@ -112,7 +112,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-    {/* Menu Sidebar Section Start */}
+    {/* Menu Sidebar Section end */}
   </>
   
   );

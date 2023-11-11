@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const Tour = () => {
   return (
@@ -46,12 +46,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img13.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -62,7 +62,7 @@ const Tour = () => {
                         $<span className="counter">62.24</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">Asian discovery</a>
+                        <Link to="/tourdetails">Asian discovery</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">
@@ -86,12 +86,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img88.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -102,7 +102,7 @@ const Tour = () => {
                         $<span className="counter">64.48</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">Mountain hiking tour</a>
+                        <Link to="/tourdetails">Mountain hiking tour</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">
@@ -126,12 +126,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img9.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -142,7 +142,7 @@ const Tour = () => {
                         $<span className="counter">66.62</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">Adventure maldivs</a>
+                        <Link to="/tourdetails">Adventure maldivs</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">
@@ -166,12 +166,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img10.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -182,7 +182,7 @@ const Tour = () => {
                         $<span className="counter">74.66</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">The minimalist sea</a>
+                        <Link to="/tourdetails">The minimalist sea</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">
@@ -206,12 +206,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img11.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -222,7 +222,7 @@ const Tour = () => {
                         $<span className="counter">72.28</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">Antique europe</a>
+                        <Link to="/tourdetails">Antique europe</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">
@@ -246,12 +246,12 @@ const Tour = () => {
               >
                 <div className="location-card style-2">
                   <div className="image-wrapper">
-                    <a href="tour-details.html" className="image-inner">
+                    <Link to="/tourdetails" className="image-inner">
                       <img
                         src="images/location-card/img12.jpg"
                         alt="Location Image"
                       />
-                    </a>
+                    </Link>
                     <div className="favourite-icon">
                       <i className="fa-solid fa-heart" />
                     </div>
@@ -262,7 +262,7 @@ const Tour = () => {
                         $<span className="counter">68.44</span>
                       </h5>
                       <h3 className="content-title">
-                        <a href="tour-details.html">Awesome island</a>
+                        <Link to="/tourdetails">Awesome island</Link>
                       </h3>
                       <div className="time-zone">
                         <div className="time-zone-inner">

@@ -2,6 +2,7 @@
     "use strict";
     $(document).ready(function () {
 
+        console.log("ready executed!");
         /*
        Jquery Mobile Menu
        ============================*/
@@ -33,12 +34,14 @@
         /*
         Stikey Js
         ============================*/
-
+        console.log("scrolling");
         const body = document.body;
         const html = document.documentElement;
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-
+        console.log("scrolling");
+        console.log("scrolling ---",$(window).scrollTop());
         if (100 < $(window).scrollTop()) {
+            console.log("scrolling inside");
             $(".header-menu-area.sticky-header").addClass("sticky_menu");
         }
 
@@ -729,15 +732,7 @@
         }
 
 
-        /*
-        Counter Js
-        ============================*/
-        $(".counter").counterUp({
-            delay: 10,
-            time: 1000,
-        });
-
-        /*
+                /*
        Magnific Popup
        ============================*/
         $(".video-play").magnificPopup({
@@ -868,16 +863,16 @@
             var outputMin = document.getElementById('min-value');
             var outputMax = document.getElementById('max-value');
 
-            outputMin.innerHTML = minSlider.value;
-            outputMax.innerHTML = maxSlider.value;
+            // outputMin.innerHTML = minSlider.value;
+            // outputMax.innerHTML = maxSlider.value;
 
-            minSlider.oninput = function(){
-            outputMin.innerHTML=this.value;    
-            }
+            // minSlider.oninput = function(){
+            // outputMin.innerHTML=this.value;    
+            // }
 
-            maxSlider.oninput = function(){
-                outputMax.innerHTML=this.value; 
-            }
+            // maxSlider.oninput = function(){
+            //     outputMax.innerHTML=this.value; 
+            // }
         });
 
         /*

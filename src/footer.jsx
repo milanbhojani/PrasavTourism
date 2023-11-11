@@ -137,6 +137,7 @@ const Footer = () => {
     {/* Scroll Up Section End */}
   </>
   
+  
   );
 };
 
